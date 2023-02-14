@@ -1,0 +1,45 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-color:darkcyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  Style For The Div Container of Index File   */
+
+#root{
+position: absolute;
+top: 10%;
+height: 80%;
+width: 25%;
+border: 10px solid azure;
+border-radius: 1rem;
+
+
+}
+
+/* Media Query For The Root Div  */
+
+@media screen and (max-width:800px) {
+ #root{
+    width: 40%;
+ }
+}
+@media screen and (max-width:500px) {
+    #root{
+       width: 60%;
+    }
+   }
+   @media screen and (max-width:450px) {
+    #root{
+       width: 80%;
+    }
+   }
